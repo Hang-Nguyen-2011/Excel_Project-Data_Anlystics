@@ -140,7 +140,7 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 ### 🖼️ Data Model Diagram
 
-![Power Pivot Data Model](../0_Resources/Images/7.png)
+![Power Pivot Data Model](../0_Resources/Images/7.PNG)
 ### 🖼️ Power Pivot Menu
 
 The **Power Pivot** menu was used to refine my data model and made it easy to create custom measures.
