@@ -88,7 +88,7 @@ This trend emphasizes the value of acquiring multiple relevant skills, particula
 
 ## 2️⃣ What’s the Salary for Data Jobs in Different Regions?
 
-### 🧮 Skills Used
+### 🛠️  Skills Used
 
 - PivotTables  
 - DAX  
@@ -110,7 +110,7 @@ To focus on U.S.-based roles, I added a measure to calculate the **median salary
     data_jobs_all[job_country] = "United States"
 )
 ```
-### 🧮 DAX
+### 🔖 DAX
 
 To calculate the median yearly salary, I used the following DAX measure:
 
@@ -121,9 +121,9 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 #### 💡 Insights
 
-💼 The analysis shows that job roles such as **Senior Data Engineer** and **Data Scientist** consistently have **higher median salaries** both in the US and internationally. This indicates a strong global demand for professionals with advanced data expertise.
+- 💼 The analysis shows that job roles such as **Senior Data Engineer** and **Data Scientist** consistently have **higher median salaries** both in the US and internationally. This indicates a strong global demand for professionals with advanced data expertise.
 
-💰 There is also a noticeable **salary difference between US-based and non-US-based roles**, particularly in high-tech positions. This disparity may be influenced by the concentration of major technology companies and data-driven industries within the United States.
+- 💰 There is also a noticeable **salary difference between US-based and non-US-based roles**, particularly in high-tech positions. This disparity may be influenced by the concentration of major technology companies and data-driven industries within the United States.
 
 ![Salary Analysis](../0_Resources/Images/6.png)
 ### 📌 So What?
@@ -134,8 +134,6 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 ### 🔧 Skill: Power Pivot
 
-#### 💪 Power Pivot in Action
-
 -  I created a **Data Model** by integrating the `data_jobs_all` and `data_jobs_skills` tables into one model.
 -  Since I had already cleaned the data using **Power Query**, Power Pivot automatically established a **relationship** between the two tables.
 -  I created this relationship using the **`job_id`** column as the key.
@@ -143,11 +141,10 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 ### 🖼️ Data Model Diagram
 
 ![Power Pivot Data Model](../0_Resources/Images/7.png)
-### 🧩 Power Pivot Menu
+### 🖼️ Power Pivot Menu
 
 The **Power Pivot** menu was used to refine my data model and made it easy to create custom measures.
 
-### 🖼️ Power Pivot Interface
 
 ![Data Model Screenshot](../0_Resources/Images/3.png)
 
@@ -170,7 +167,7 @@ The **Power Pivot** menu was used to refine my data model and made it easy to cr
 
 I created a **combo PivotChart** to visualize both **median salary** and **skill likelihood (%)** using data from my PivotTable:
 
-- 🪙 **Primary Axis**: Median Salary (as a Clustered Column)
+- 💰 **Primary Axis**: Median Salary (as a Clustered Column)
 - 👍 **Secondary Axis**: Skill Likelihood (as a Line with Markers)
 
 To improve clarity and design:
