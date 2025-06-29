@@ -140,7 +140,7 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 ### 🖼️ Data Model Diagram
 
-![Power Pivot Data Model](../0_Resources/Images/7.PNG)
+![Power Pivot Data Model](../0_Resources/Images/7.png)
 ### 🖼️ Power Pivot Menu
 
 The **Power Pivot** menu was used to refine my data model and made it easy to create custom measures.
@@ -170,8 +170,8 @@ The **Power Pivot** menu was used to refine my data model and made it easy to cr
 
 I created a **combo PivotChart** to visualize both **median salary** and **skill likelihood (%)** using data from my PivotTable:
 
-- 💰 **Primary Axis**: Median Salary (as a Clustered Column)
-- 👍 **Secondary Axis**: Skill Likelihood (as a Line with Markers)
+-  **Primary Axis**: Median Salary (as a Clustered Column)
+-  **Secondary Axis**: Skill Likelihood (as a Line with Markers)
 
 To improve clarity and design:
 - I added chart and axis titles  
