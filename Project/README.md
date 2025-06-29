@@ -151,10 +151,13 @@ The **Power Pivot** menu was used to refine my data model and made it easy to cr
 
 ### 📊 Analysis
 
-#### 💡 Insights
+#### 💡 Insights for Data Analyst Roles
 
-- 💻 **SQL** and **Python** dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
-- ☁️ Emerging technologies like **AWS** and **Azure** also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
+- 💻 SQL is by far the most in-demand skill, appearing in over 70% of job postings—highlighting its essential role in querying, managing, and analyzing structured data.
+
+- 📊 Power BI and Python follow as top-tier tools, showing that both data visualization and programming for data manipulation are key expectations for analysts.
+
+- 🔧 A mix of database technologies (SQL Server, Oracle, MongoDB) and tools like Tableau and Java suggests that versatility across platforms is valuable, even if these are less frequently required.
 
 ![Top Skills Analysis](../0_Resources/Images/9.png)
 ### 📌 So What?
